@@ -3,11 +3,65 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/api-gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/auth-service" name="auth-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/auth-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/delivery-service" name="delivery-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/delivery-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/food-service" name="foodservice">
+                <projects>
+                  <project path="$PROJECT_DIR$/food-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/notification-service" name="notification-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/notification-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/order-service" name="order-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/order-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/payment-service" name="payment-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/payment-service" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/auth-service" />
+            <option value="$PROJECT_DIR$/delivery-service" />
+            <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/food-service" />
+            <option value="$PROJECT_DIR$/notification-service" />
+            <option value="$PROJECT_DIR$/order-service" />
+            <option value="$PROJECT_DIR$/payment-service" />
           </set>
         </option>
       </GradleProjectSettings>

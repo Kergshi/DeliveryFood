@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/auth-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/delivery-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/food-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/notification-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/order-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/payment-service" vcs="Git" />
   </component>
 </project>
