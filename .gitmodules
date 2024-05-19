@@ -22,3 +22,6 @@
 [submodule "eureka-server"]
 	path = eureka-server
 	url = https://github.com/Kergshi/eureka-server.git
+[submodule "infra"]
+	path = infra
+	url = https://github.com/Kergshi/infra.git
