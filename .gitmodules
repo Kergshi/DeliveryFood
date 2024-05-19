@@ -1,0 +1,24 @@
+[submodule "food-service"]
+	path = food-service
+	url = https://github.com/anton-podoinikov/foodservice.git
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/Kergshi/api-gateway.git
+[submodule "payment-service"]
+	path = payment-service
+	url = https://github.com/Kergshi/payment-service.git
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/Kergshi/order-service.git
+[submodule "notification-service"]
+	path = notification-service
+	url = https://github.com/Kergshi/notification-service.git
+[submodule "delivery-service"]
+	path = delivery-service
+	url = https://github.com/Kergshi/delivery-service.git
+[submodule "auth-service"]
+	path = auth-service
+	url = https://github.com/Kergshi/auth-service.git
+[submodule "eureka-server"]
+	path = eureka-server
+	url = https://github.com/Kergshi/eureka-server.git
