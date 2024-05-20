@@ -1,27 +1,36 @@
 [submodule "food-service"]
 	path = food-service
 	url = https://github.com/anton-podoinikov/foodservice.git
+	branch = main
 [submodule "api-gateway"]
 	path = api-gateway
 	url = https://github.com/Kergshi/api-gateway.git
+	branch = master
 [submodule "payment-service"]
 	path = payment-service
 	url = https://github.com/Kergshi/payment-service.git
+	branch = master
 [submodule "order-service"]
 	path = order-service
 	url = https://github.com/Kergshi/order-service.git
+	branch = master
 [submodule "notification-service"]
 	path = notification-service
 	url = https://github.com/Kergshi/notification-service.git
+	branch = master
 [submodule "delivery-service"]
 	path = delivery-service
 	url = https://github.com/Kergshi/delivery-service.git
+	branch = master
 [submodule "auth-service"]
 	path = auth-service
 	url = https://github.com/Kergshi/auth-service.git
+	branch = master
 [submodule "eureka-server"]
 	path = eureka-server
 	url = https://github.com/Kergshi/eureka-server.git
+	branch = master
 [submodule "infra"]
 	path = infra
 	url = https://github.com/Kergshi/infra.git
+	branch = master
