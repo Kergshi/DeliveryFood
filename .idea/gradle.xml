@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -31,6 +32,11 @@
                   <project path="$PROJECT_DIR$/food-service" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/infra" name="infra">
+                <projects>
+                  <project path="$PROJECT_DIR$/infra" />
+                </projects>
+              </build>
               <build path="$PROJECT_DIR$/notification-service" name="notification-service">
                 <projects>
                   <project path="$PROJECT_DIR$/notification-service" />
@@ -59,6 +65,7 @@
             <option value="$PROJECT_DIR$/delivery-service" />
             <option value="$PROJECT_DIR$/eureka-server" />
             <option value="$PROJECT_DIR$/food-service" />
+            <option value="$PROJECT_DIR$/infra" />
             <option value="$PROJECT_DIR$/notification-service" />
             <option value="$PROJECT_DIR$/order-service" />
             <option value="$PROJECT_DIR$/payment-service" />
